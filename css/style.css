@@ -1,0 +1,74 @@
+html {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+
+body {
+  height: 100%;
+  padding: 0;
+  overflow: auto;
+  font-size: 18px;
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  letter-spacing: 0.05em;
+  -webkit-overflow-scrolling: touch;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.header-container {
+  background: radial-gradient(circle, rgb(58, 52, 152), rgb(150, 109, 135));
+  color: #fff;
+  display: flex;
+  padding: 60px 20px 0 20px;
+  margin-bottom: 40px;
+}
+
+.header {
+  overflow: auto;
+  flex-grow: 2;
+}
+
+.profile-picture-container {
+  flex-grow: 1;
+}
+
+.profile-picture {
+  position: relative;
+  border-radius: 4px;
+  left: 60px;
+  top: 40px;
+}
+
+.contact-details {
+  margin: 20px 0px;
+  display: grid;
+  grid-gap: 14px;
+  grid-template-columns: 1fr 5fr;
+}
+
+.contact-key,
+.fab {
+  color: rgb(157, 154, 205);
+}
+
+.fab {
+  margin: 16px 16px 16px 0;
+  font-size: 20px;
+}
+
+.content {
+  padding: 24px;
+}
+
+.section {
+  padding: 10px;
+}
+
+.section:not(:last-child) {
+  border-bottom: 1px solid rgb(85, 85, 85);
+}
